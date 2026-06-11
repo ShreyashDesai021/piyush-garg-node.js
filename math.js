@@ -8,10 +8,11 @@ function subtract(a,b){
 
 //export { add, subtract };
 
-const math = {
+const maths = {
     add,
     subtract
 }
 
-export { math };
+//export { maths }; 
+export { maths as mathFn }; 
 
